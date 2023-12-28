@@ -1,0 +1,22 @@
+<div class="author">
+    <h1 class="heading">Welcoming you in Blog For You</h1>
+    <p class="authorbody">Read and Write Blog</p>
+    <a href="/create"><b>Write</b></a>
+</div>
+
+<section class="article">
+    <h2 class="articleheading">Latest Post</h2>
+    <ul>
+        <% data.forEach(post => { %>
+            <li>
+                <a href="/post/<%= post._id %>">
+                    <span name="title"><%= post.title %></span>
+                    <span class="listdate"><%= post.createdAt.toDateString() %></span>
+                </a>
+            </li>
+        <% }) %> 
+    </ul>
+</section>
+<footer>
+    <p>Bharat Intern Task-2 Project for intership(2023-24) </p>
+</footer>

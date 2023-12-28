@@ -1,0 +1,139 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+nav{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav ul{
+    display: flex;
+}
+nav  a{
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+} 
+
+.article{
+    border-top: 1px solid white;
+}
+.articleheading{
+    padding-left: 20px;
+    margin: 1%;
+}
+.article ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.article .listdate{
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    width: 200px;
+    
+}
+.article ul li a{ 
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    color: white;
+    margin: 4px 0;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+}
+.article ul li a span{
+    padding: 4px;
+}
+
+.author{
+    text-align: center;
+    margin: 20%;
+}
+
+.author a{
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid white;
+}
+.author a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: .5s linear;
+}
+/* create */
+.admin-title {
+  text-align: center;
+}
+
+.cform{
+    display: flex;
+   flex-direction: column;
+   cursor: pointer;
+   padding-right: 10%;
+   padding-left: 10%;
+   border-bottom: 1px solid white;
+}
+.cform label{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cform input{
+    border: none;
+    background-color: black;
+    padding-top: 10px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.cform textarea{
+    border: 1px solid white;
+    background-color: black;
+    padding-top: 10px;
+    color: white;
+    border-top: none;
+}
+.cform .btn{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 80%;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    padding: 4px;
+    margin: 0%;
+}
